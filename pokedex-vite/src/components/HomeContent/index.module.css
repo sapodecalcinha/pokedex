@@ -1,0 +1,38 @@
+.section {
+    display: flex;
+    justify-content: flex-end;
+
+    width: 100%;
+    height: 87vh;
+
+    background-image: linear-gradient( var(--yellow-third), var(--yellow-primary))
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+}
+
+.button_size {
+    
+}
+
+h1 {
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 72px;
+    width: 506px;
+    margin: 0;
+}
+
+.title {
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 32px;
+    width: 506px;
+    margin: 0;
+}
