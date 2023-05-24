@@ -13,7 +13,7 @@
 
 .article {
     display: flex;
-    gap: 55px;
+    gap: 5vw;
 }
 
 .article a {
@@ -43,10 +43,6 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1007px) {
-    .article {
-        gap: 45px;
-    }
-
     .img {
         height: 45px;
         width: 121px;

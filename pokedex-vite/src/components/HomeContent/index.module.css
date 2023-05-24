@@ -11,8 +11,9 @@
 .article {
     display: flex;
     flex-direction: column;
-    padding-left: 107px;
-    gap: 17px;
+    padding-left: 12vw;
+    padding-top: 9vh;
+    gap: 5vh;
 }
 
 .button_container {
@@ -35,11 +36,20 @@
     cursor: pointer;
 }
 
+.img_desk{
+    display: flex;
+    padding-top: 4vh;
+}
+
+.img_mobi{
+    display: none;
+}
+
 h1 {
     font-family: 'Karla';
     font-weight: 700;
     font-size: 72px;
-    width: 506px;
+    width: 57vh;
     margin: 0;
 }
 
@@ -51,10 +61,18 @@ p {
     font-family: 'Karla';
     font-weight: 400;
     font-size: 32px;
-    width: 506px;
+    width: 71vh;
     margin: 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 820px) {
+    .img_mobi {
+        display: flex;
+    }
 
+    .img_desk{ 
+        display: none;
+    }
+
+    
 }

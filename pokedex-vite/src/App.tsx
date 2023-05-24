@@ -1,12 +1,15 @@
 import { Header } from "./components/Header"
-import {HomeContent} from "./components/HomeContent"
+
+import { Pokedex } from "./components/Pokedex"
 
 
 function App() {
   return (
     <>
       <Header />
-      <HomeContent/>
+      {/*<HomeContent/>*/}
+      <Pokedex/>
+
     </>
   )
 }

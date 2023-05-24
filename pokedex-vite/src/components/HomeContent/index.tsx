@@ -11,8 +11,8 @@ export const HomeContent = () => {
                     <button className={styles.button}>See pokemons</button>
                 </section>
             </article>
-            <img src={BannerCompleteDesktop} alt="Banner Pikachu com as pokebolas" />
-            <img src={BannerCompleteDesktop} alt="" />
+            <img className={styles.img_desk} src={BannerCompleteDesktop} alt="Banner Pikachu com as pokebolas" />
+            <img className={styles.img_mobi} src={BannerCompleteDesktop} alt="Banner Pikachu com as pokebolas mobile" />
         </section>
     )
 }
