@@ -16,9 +16,6 @@
     gap: 5vh;
 }
 
-.button_container {
-    
-}
 
 .button {
     width: 231px;
@@ -51,6 +48,7 @@ h1 {
     font-size: 72px;
     width: 57vh;
     margin: 0;
+    line-height: normal;
 }
 
 .title {
