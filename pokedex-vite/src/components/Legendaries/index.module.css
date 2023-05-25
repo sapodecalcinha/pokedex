@@ -1,0 +1,68 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+    background: var(--dark);
+}
+
+.article {
+    display: flex;
+    justify-content: flex-start;
+    width: 84vw;
+}
+
+.article_pokemon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 84vw;
+}
+
+.article_pokemon h2 {
+    font-family: 'Karla';
+    font-size: 72px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.article_pokemon p {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 16px;
+    width: 31vw;
+
+    color: var(--white);
+}
+
+.article_pokemon_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    width: 80vw;
+    height: 20vh;
+}
+
+.title h1 {
+    font-family: 'Karla';
+    font-size: 72px;
+    font-weight: 400;
+    color: var(--white);
+
+    width: 32vw;
+}
+
+.line {
+    border: 1px solid;
+    color: var(--white);
+}
+
+.img {
+    width: 30vw;
+    height: 69vh;
+}

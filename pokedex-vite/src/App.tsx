@@ -1,5 +1,5 @@
 import { Header } from "./components/Header"
-import { Pokedex } from "./components/Pokedex"
+import { Legendaries } from "./components/Legendaries"
 import { ChakraProvider } from '@chakra-ui/react'
 
 
@@ -9,7 +9,7 @@ function App() {
     <>
     <ChakraProvider>
       <Header />
-      <Pokedex/>
+      <Legendaries/>
     </ChakraProvider>
     </>
   )
