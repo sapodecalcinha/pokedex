@@ -1,0 +1,39 @@
+.section {
+    width: 22.9vw;
+    height: 18.9vh;
+    background: var(--light-grey);
+
+    border-radius: 8px;
+}
+
+.card_article h1 {
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card_article p {
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.card_article_props {
+    display: flex;
+    flex-direction: row;
+}
+
+.card_article_back_num {
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+    width:  2.4vw;
+    height: 4.9vh;
+    background-size: cover;
+    background-image: url(../../assets/Ellipse.svg);
+}
+
+.card_article_direction_column {
+    display: flex;
+    flex-direction: column;
+}
