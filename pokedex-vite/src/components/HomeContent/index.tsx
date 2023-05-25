@@ -1,8 +1,11 @@
 import styles from './index.module.css'
 import BannerCompleteDesktop from '../../assets/BannerCompleteDesktop.png' 
+import { Header } from '../Header'
 
 export const HomeContent = () => {
     return (
+        <>
+        <Header/>
         <section className={styles.section}>
             <article className={styles.article}>
                 <h1>Find <span className={styles.title}>all your favorite</span> Pokemon</h1>
@@ -14,5 +17,6 @@ export const HomeContent = () => {
             <img className={styles.img_desk} src={BannerCompleteDesktop} alt="Banner Pikachu com as pokebolas" />
             <img className={styles.img_mobi} src={BannerCompleteDesktop} alt="Banner Pikachu com as pokebolas mobile" />
         </section>
+        </>
     )
 }

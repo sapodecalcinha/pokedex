@@ -1,8 +1,11 @@
 import styles from './index.module.css'
 import mew from '../../assets/mew.png'
+import { Header } from '../Header'
 
 export const Legendaries = () => {
     return (
+        <>
+        <Header/>
         <section className={styles.section}>
             <article className={styles.article}>
                 <div className={styles.title}>
@@ -22,5 +25,6 @@ export const Legendaries = () => {
                     </article>
                 </article>
         </section>
+        </>
     )
 }
