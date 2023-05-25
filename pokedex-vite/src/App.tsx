@@ -1,12 +1,16 @@
 import { Header } from "./components/Header"
-import {HomeContent} from "./components/HomeContent"
+import { Legendaries } from "./components/Legendaries"
+import { ChakraProvider } from '@chakra-ui/react'
+
 
 
 function App() {
   return (
     <>
+    <ChakraProvider>
       <Header />
-      <HomeContent/>
+      <Legendaries/>
+    </ChakraProvider>
     </>
   )
 }

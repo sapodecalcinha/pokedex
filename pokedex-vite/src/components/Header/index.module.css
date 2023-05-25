@@ -13,7 +13,7 @@
 
 .article {
     display: flex;
-    gap: 55px;
+    gap: 5vw;
 }
 
 .article a {
@@ -42,11 +42,24 @@
     width: 169px;
 }
 
+.menu {
+    display: none;
+    background: var(--yellow-third);
+}
+.teste{
+    display: flex;
+    flex-direction: column;
+    background: var(--yellow-third)!important;
+}
+
+
 @media only screen and (min-width: 768px) and (max-width: 1007px) {
     .article {
         gap: 45px;
     }
+}
 
+@media only screen and (min-width: 768px) and (max-width: 1007px) {
     .img {
         height: 45px;
         width: 121px;
@@ -56,11 +69,21 @@
         font-size: 19px;
     }
 
+    
+
 }
 
 @media only screen and (max-width: 767px) {
+    .header {
+        gap: 233px;
+    }
     .article {
         display: none;
     }
+
+    .menu {
+        display: flex;
+    }
+
 
 }
