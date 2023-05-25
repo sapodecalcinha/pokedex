@@ -8,9 +8,9 @@ export const Header = () => {
         <header className={styles.header}>
             <img className={styles.img} src={Logo} alt="Logo Pokémon" />
             <article className={styles.article}>
-                <a className={styles.a} href="#">Home</a>
-                <a href="#">Pokédex</a>
-                <a href="#">Legendaries</a>
+                <a className={styles.a} href="/">Home</a>
+                <a href="pokedex">Pokédex</a>
+                <a href="legendaries">Legendaries</a>
                 <a href="#">Documentation</a>
             </article>
 
