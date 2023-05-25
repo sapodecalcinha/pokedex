@@ -11,22 +11,23 @@ import {
     MenuDivider,
     Button,
   } from '@chakra-ui/react'
+import { PokemonCard } from '../PokemonCard'
 
 export const Pokedex =  () => {
     return (
         <>
+        <Header/>
         <section className={styles.section}>
             <article className={styles.title}>
                 <h1>800 <strong>Pokemons</strong> for you to choose your favorite</h1>
             </article>
             <input type="text" placeholder='Encuentra tu pokémon...' />
             <article>
-                <Menu>
-                    <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
-
-                    </MenuButton>
-                </Menu>
+                
             </article>
+        </section>
+        <section>
+            <PokemonCard/>
         </section>
         </>
     )
