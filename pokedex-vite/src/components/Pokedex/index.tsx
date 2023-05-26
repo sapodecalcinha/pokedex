@@ -1,16 +1,5 @@
 import styles from './index.module.css'
 import { Header } from '../Header'
-import {
-    Menu,
-    MenuButton,
-    MenuList,
-    MenuItem,
-    MenuItemOption,
-    MenuGroup,
-    MenuOptionGroup,
-    MenuDivider,
-    Button,
-  } from '@chakra-ui/react'
 import { PokemonCard } from '../PokemonCard'
 
 export const Pokedex =  () => {

@@ -1,18 +1,16 @@
-import { Header } from "./components/Header"
-import { Pokedex } from "./components/Pokedex"
-import { ChakraProvider } from '@chakra-ui/react'
+import { HomeContent } from "./components/HomeContent"
+
 
 
 
 function App() {
+
+
   return (
     <>
-    <ChakraProvider>
-
-    </ChakraProvider>
+      <HomeContent />
     </>
   )
 }
 
 export default App
-
