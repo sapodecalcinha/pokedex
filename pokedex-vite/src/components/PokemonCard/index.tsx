@@ -1,5 +1,4 @@
 import styles from './index.module.css'
-import Ellipse from '../../assets/Ellipse 6.svg'
 
 export const PokemonCard = () => {
     return (
